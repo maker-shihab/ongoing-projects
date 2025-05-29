@@ -1,0 +1,23 @@
+# Cline Rules: Funding Finder Project
+
+## Initial Observations (2025-04-24)
+
+-   **Project Foundation:** Built upon the `CMSaasStarter` template (SvelteKit, Supabase, Stripe, TailwindCSS, DaisyUI). Adherence to the patterns and structure of this template is expected.
+-   **Primary Goal:** Aggregate and provide easy access to EU funding information, starting with German data.
+-   **Key Document:** `roadmap.md` outlines the long-term vision and phased implementation. Refer to it for feature planning.
+-   **Memory Bank:** Core documentation is established in the `memory-bank/` directory. Maintain this diligently. Read ALL files at the start of each session.
+-   **Coding Standards:** Enforced by ESLint and Prettier configurations in the project root. Run `npm run lint` and `npm run format` regularly. Use TypeScript.
+-   **Stack Choice:** Although `roadmap.md` mentions WordPress for the PoC, the project setup is SvelteKit. Proceed with SvelteKit unless explicitly told otherwise.
+-   **Data Handling:** Initial data (`Förderdatenbank des Bundes`) is external (details needed). Future work involves significant data ingestion, cleaning, and database management (Supabase).
+-   **Blocker:** Access to the initial funding dataset is currently required to proceed with Milestone 1.
+
+## Template Patterns (2025-04-24)
+
+-   **Route Groups:** The template uses parenthesized route groups like `(marketing)` and `(admin)` to organize routes without affecting URLs. Maintain this pattern for new routes.
+-   **Authentication Flow:** Authentication is handled via Supabase Auth with a `safeGetSession` helper in `hooks.server.ts`. Protected routes should check `event.locals.session` in their server load functions.
+-   **Form Actions:** User interactions are primarily handled through form actions in `+page.server.ts` files, using the `action="?/actionName"` pattern and `use:enhance` for a smoother experience.
+-   **Static Content:** Public-facing pages use `export const prerender = true;` for SEO optimization. Continue this pattern for funding program pages.
+-   **Search Implementation:** The template uses a build-time search index generation via a custom Vite plugin and client-side searching with Fuse.js. Adapt this pattern for funding program search.
+-   **Email Verification:** Always use the `sendUserEmail` helper which checks email verification status and unsubscribe preferences before sending.
+-   **Stripe Integration:** Use the `getOrCreateCustomerId` helper for any Stripe operations to ensure proper user-to-customer mapping.
+-   **Security:** Keep all API keys (Supabase, Stripe, Resend) server-side. Use the appropriate client from `event.locals` in server code.
