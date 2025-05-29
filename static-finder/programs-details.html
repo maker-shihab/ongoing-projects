@@ -21,11 +21,18 @@
         </button>
         <div class="flex flex-col-reverse md:flex-row gap-8 mt-8">
           <!-- Funding Programs Details Content -->
-          <div class="w-full relative">
-            <span class="absolute top-2 -right-6 bg-gradient-to-r from-[#00BE57] to-[#01F371] text-white py-2
-            px-4 rounded-sm text-xs font-bold">Current</span>
+          <div class="w-full">
             <div class="">
-              <h2 class="text-[#1e1e1e] font-bold text-5xl capitalize pb-7">Impact financing envelope der EIB</h2>
+              <div class="flex flex-row lg:flex-col gap-4">
+                <h2 class="text-[#1e1e1e] font-bold text-lg lg:text-5xl capitalize pb-7 relative">
+                  Impact financing envelope der EIB
+                  <span
+                    class="inline lg:absolute lg:top-2 lg:-right-8 bg-gradient-to-r from-[#00BE57] to-[#01F371] text-white py-1 px-2 lg:py-2 lg:px-4 rounded-sm text-[8px] lg:text-xs font-bold">Current</span>
+                </h2>
+                <button type="button"
+                  class="flex w-8 h-8 rounded-md lg:hidden border justify-center items-center border-teal-600 text-teal-600 hover:bg-teal-100 p-2">
+                  <img src="/images/programs/icons/bookmark.svg" class="h-5 w-5" alt="icon"></button>
+              </div>
               <div class="flex flex-wrap gap-3">
                 <button type="button"
                   class="btn btn-outline border max-h-9 pl-3 pr-5 border-green-800 text-green-800 hover:bg-green-100">
@@ -116,7 +123,7 @@
                   </div>
                 </div>
                 <!-- Tags -->
-                <div class="flex items-center flex-wrap gap-3 m-14 pt-12">
+                <div class="flex items-center flex-wrap gap-3 mb-14 pt-12">
                   <a href="#"
                     class="text-white py-2 px-4 bg-teal-600 font-medium text-xs rounded-sm">#ResearchAllowance</a>
                   <a href="#" class="text-white py-2 px-4 bg-teal-600 font-medium text-xs rounded-sm">#RDFunding</a>
@@ -148,9 +155,136 @@
           </div>
           <!-- Aside -->
           <div class="max-w-[400px] w-full">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus nulla quibusdam aliquid repellat magnam,
-            maiores esse necessitatibus ratione hic exercitationem impedit, pariatur similique fugiat deleniti, illum
-            dolor expedita atque in.
+            <div>
+              <div class="flex justify-end">
+                <button type="button"
+                  class="hidden lg:flex btn btn-outline text-lg border-teal-600 text-teal-600 hover:bg-teal-100">
+                  <img src="/images/programs/icons/bookmark.svg" class="h-6 w-6" alt="icon">
+                  Save Funding</button>
+              </div>
+              <!-- Funding Overview -->
+              <div class="bg-[#EFFBFF] mt-20">
+                <div class="bg-[#029ECF] rounded-t-2xl">
+                  <h3 class="text-white py-4 px-5 font-semibold text-2xl">Funding Overview</h3>
+                </div>
+                <div class="p-5">
+                  <ul class="flex gap-6 flex-col text-black">
+                    <li class="flex gap-3">
+                      <strong class="flex min-w-40 lg:w-auto">
+                        <img class="mr-2 h-4 w-4 object-contain text-sm" src="/images/programs/icons/globe.svg"
+                          alt="icon">
+                        Maximum Amount
+                      </strong>
+                      <span class="font-medium text-[15px]">€5,000,000</span>
+                    </li>
+                    <li class="flex gap-3">
+                      <strong class="flex min-w-40 lg:w-auto">
+                        <img class="mr-2 h-4 w-4 object-contain text-sm" src="/images/programs/icons/hospital.svg"
+                          alt="icon">
+                        Next Deadline
+                      </strong>
+                      <span class="font-medium text-[15px]">31.12.2028s</span>
+                    </li>
+                    <li class="flex gap-3">
+                      <strong class="flex min-w-40 lg:w-auto">
+                        <img class="mr-2 h-4 w-4 object-contain text-sm"
+                          src="/images/programs/icons/time-atack-graph.svg" alt="icon">
+                        Open Untill
+                      </strong>
+                      <span class="font-medium text-[15px]">31.12.2030</span>
+                    </li>
+                    <li class="flex gap-3">
+                      <strong class="flex min-w-40 lg:w-auto">
+                        <img class="mr-2 h-4 w-4 object-contain text-sm" src="/images/programs/icons/camera.svg"
+                          alt="icon">
+                        Award Channel
+                      </strong>
+                      <span class="font-medium text-[15px]">Framework - programme call</span>
+                    </li>
+                    </li>
+                    <li class="flex gap-3">
+                      <strong class="flex min-w-40 lg:w-auto">
+                        <img class="mr-2 h-4 w-4 object-contain text-sm" src="/images/programs/icons/camera.svg"
+                          alt="icon">
+                        Region
+                      </strong>
+                      <span class="font-medium text-[15px]">Germany</span>
+                    </li>
+                    </li>
+                    <li class="flex gap-3">
+                      <strong class="flex min-w-40 lg:w-auto">
+                        <img class="mr-2 h-4 w-4 object-contain text-sm" src="/images/programs/icons/camera.svg"
+                          alt="icon">
+                        Sectors
+                      </strong>
+                      <span class="font-medium text-[15px]">Small enterprise</span>
+                    </li>
+                    </li>
+                    <li class="flex gap-3">
+                      <strong class="flex min-w-40 lg:w-auto">
+                        <img class="mr-2 h-4 w-4 object-contain text-sm" src="/images/programs/icons/camera.svg"
+                          alt="icon">
+                        Beneficiary
+                      </strong>
+                      <span class="font-medium text-[15px]">Agriculture, forestry & fishing + Food production</span>
+                    </li>
+                    </li>
+                    <li class="flex gap-3">
+                      <strong class="flex min-w-40 lg:w-auto">
+                        <img class="mr-2 h-4 w-4 object-contain text-sm" src="/images/programs/icons/camera.svg"
+                          alt="icon">
+                        Funding Stages
+                      </strong>
+                      <span class="font-medium text-[15px]">Basic research, Applied R&D, prototype</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Funding Provider -->
+              <div class="bg-[#F3FFEF] mt-9">
+                <div class="bg-[#4FA530] rounded-t-2xl">
+                  <h3 class="text-white py-4 px-5 font-semibold text-2xl">Funding Overview</h3>
+                </div>
+                <div class="p-5">
+                  <ul class="flex gap-4 flex-col text-black">
+                    <li class="text-sm">
+                      <span>Program Level:</span>
+                      <strong>EU</strong>
+                    </li>
+                    <li class="text-sm">
+                      <span>Funding Body:</span>
+                      <strong>Bundesministerium für Bildung und Forschung (BMBF)</strong>
+                    </li>
+                    <li class="text-sm">
+                      <span>Managed by: </span>
+                      <strong>Projektträger Jülich (PtJ)</strong>
+                    </li>
+                    <li class="text-sm">
+                      <span>Additional Partners: </span>
+                      <strong>DBK</strong>
+                    </li>
+                    <li class="text-sm">
+                      <span>Contact:</span>
+                      <strong>address, email</strong>
+                    </li>
+                    <li class="text-sm flex gap-2">
+                      <span>Source: </span>
+                      <strong class="items-center">
+                        <a href="#" class="flex gap-2">
+                          URL
+                          <img src="/images/icon/compare-arrows-rounded.svg" alt="icon">
+                        </a>
+                      </strong>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- Contact Button -->
+              <div class="pt-8">
+                <button class="btn btn-primary bg-teal-600 border-teal-600 w-full text-lg py-5 font-roboto">Contact
+                  Us</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
