@@ -170,7 +170,7 @@
 
     <div class="container mx-auto">
       <div
-        class="flex flex-wrap justify-center md:justify-between max-w-6xl w-full mx-auto text-center gap-8 md:gap-10 py-20"
+        class="flex flex-wrap justify-center md:justify-between text-center gap-8 md:gap-10 py-20"
       >
         <!-- Stat Box -->
         <div class="flex flex-col items-center">
@@ -184,7 +184,7 @@
           </p>
           <div class="mt-[-25px] md:mt-[-50px] opacity-70 w-[50px] md:w-32">
             <img
-              src="/images/globe-outline.svg"
+              src="./images/globe-outline.svg"
               class="w-full h-full object-contain"
               alt="icon"
             />
@@ -202,7 +202,7 @@
           </p>
           <div class="mt-[-25px] md:mt-[-50px] opacity-70 w-[50px] md:w-32">
             <img
-              src="/images/rocket-outline.svg"
+              src="./images/rocket-outline.svg"
               class="w-full h-full object-contain"
               alt="icon"
             />
@@ -220,7 +220,7 @@
           </p>
           <div class="mt-[-25px] md:mt-[-50px] opacity-70 w-[50px] md:w-32">
             <img
-              src="/images/park-outline.svg"
+              src="./images/park-outline.svg"
               class="w-full h-full object-contain"
               alt="icon"
             />
@@ -229,52 +229,55 @@
       </div>
       <!-- Never Miss -->
       <div class="py-20 relative z-10">
-        <h2 class="text-black text-5xl font-bold capitalize">
+        <h2 class="text-black text-[22px] lg:text-5xl font-bold capitalize">
           Never miss out on funding again
         </h2>
         <div class="max-w-[610px] w-full pt-12">
           <ul class="text-black text-[26px] font-semibold relative z-10">
-            <li class="flex items-center gap-6 mb-16">
+            <li class="flex items-center gap-3 lg:gap-6 mb-4 lg:mb-16">
               <span
-                class="flex items-center justify-center h-10 w-10 rounded-full bg-warning text-white text-[28px]"
+                class="flex items-center justify-center h-5 w-5 lg:h-10 lg:w-10 rounded-full bg-warning text-white text-sm lg:text-[28px]"
                 >1</span
               >
-              <p class="flex-1">Register in a few steps</p>
+              <p class="flex-1 text-sm lg:text-2xl">Register in a few steps</p>
             </li>
-            <li class="flex items-center gap-6 mb-16">
+            <li class="flex items-center gap-3 lg:gap-6 mb-4 lg:mb-16">
               <span
-                class="flex items-center justify-center h-10 w-10 rounded-full bg-warning text-white text-[28px]"
+                class="flex items-center justify-center h-5 w-5 lg:h-10 lg:w-10 rounded-full bg-warning text-white text-sm lg:text-[28px]"
                 >2</span
               >
-              <p class="flex-1">Provide details about your projects</p>
+              <p class="flex-1 text-sm lg:text-2xl">
+                Provide details about your projects
+              </p>
             </li>
-            <li class="flex gap-6">
+            <li class="flex gap-3 lg:gap-6">
               <span
-                class="flex items-center justify-center h-10 w-10 rounded-full bg-warning text-white text-[28px]"
+                class="flex items-center justify-center h-5 w-5 lg:h-10 lg:w-10 rounded-full bg-warning text-white text-sm lg:text-[28px]"
                 >3</span
               >
-              <p class="flex-1">
+              <p class="flex-1 text-sm lg:text-2xl">
                 We inform you continuously about new grants and subsidies
               </p>
             </li>
             <img
-              class="absolute left-[18px] top-0 h-[88%] w-1 z-[-1]"
-              src="/images/doted-line.svg"
+              class="absolute left-2 lg:left-[18px] top-0 h-[88%] w-1 z-[-1]"
+              src="./images/doted-line.svg"
               alt="line"
             />
           </ul>
-          <div class="mt-10">
+          <div class="max-w-40 mt-10 lg:w-auto">
             <a
-              href="/"
-              class="btn px-6 py-3 bg-teal-600 w-full border border-teal-600 text-white rounded-lg text-sm font-semibold hover:bg-teal-700 transition-colors"
+              href="#"
+              class="btn btn-primary w-full bg-teal-600 border-teal-600"
+              >Sign Up</a
             >
-              Sign Up
-            </a>
           </div>
         </div>
-        <div class="absolute top-10 right-0 h-[510px] w-[430px] left-auto">
+        <div
+          class="absolute top-10 right-0 h-[510px] w-xs lg:w-[430px] left-auto"
+        >
           <img
-            src="/images/pngwing.svg"
+            src="./images/pngwing.svg"
             class="w-full h-full object-contain rotate-[-17px]"
             alt="leavies"
           />
@@ -290,7 +293,7 @@
       >
         <div class="max-w-[906px] mx-auto">
           <h2
-            class="max-w-[333px] mx-auto w-full lg:max-w-full text-white font-bold text-2xl lg:text-4xl xl:text-5xl text-center capitalize"
+            class="max-w-[333px] mx-auto w-full lg:max-w-full text-white font-bold text-2xl lg:text-4xl xl:text-5xl text-center capitalize leading-snug"
           >
             Get our funding guide or subscribe to the newsletter
           </h2>
@@ -351,12 +354,12 @@
         </div>
         <!-- Shapes -->
         <img
-          src="/images/newsletter-top-left.svg"
+          src="./images/newsletter-top-left.svg"
           alt="shape-1"
           class="absolute top-[0px] left-[0px] w-sm h-[230px] z-[-1] object-contain"
         />
         <img
-          src="/images/newsletter-bottom-left.svg"
+          src="./images/newsletter-bottom-left.svg"
           alt="shape-2"
           class="absolute bottom-[0px] left-[0px] w-sm h-[340px] z-[-1] object-contain"
         />
@@ -367,9 +370,9 @@
   <!-- Finder CTA / CTA Section -->
   <section class="py-11 my-32 border-y border-[#39988B]/[0.32]">
     <div class="container mx-auto">
-      <div class="flex flex-col md:flex-row items-center justify-between">
+      <div class="flex flex-col lg:flex-row items-center justify-between">
         <!-- Left Content -->
-        <div class="md:w-1/2 space-y-4 text-center md:text-left">
+        <div class="lg:w-1/2 space-y-4 text-center lg:text-left">
           <h2 class="text-2xl font-bold text-primary">
             Not yet in our finder?
           </h2>
@@ -377,6 +380,13 @@
             Submit the details of your funding, support or financing program and
             we will make them visible for everyone.
           </p>
+          <div class="lg:hidden flex items-center justify-center mt-6 lg:mt-0">
+            <img
+              src="/images/cta/cta-thumb.svg"
+              alt="Monkey Search Icon"
+              class="w-40 h-40 object-contain"
+            />
+          </div>
           <button
             class="px-6 py-2.5 bg-teal-600 border border-teal-600 text-white rounded-lg text-sm font-semibold hover:bg-teal-700 pointer"
           >
@@ -385,7 +395,7 @@
         </div>
 
         <!-- Right Icon -->
-        <div class="md:w-1/2 flex justify-center mt-6 md:mt-0">
+        <div class="hidden lg:w-1/2 lg:flex justify-center mt-6 md:mt-0">
           <img
             src="/images/cta/cta-thumb.svg"
             alt="Monkey Search Icon"

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Amoeba</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -21,7 +21,7 @@
           <!-- Nav -->
           <nav>
             <ul>
-              <li><a href="#">Features</a></li>
+              <li><a href="#" class="active">Features</a></li>
               <li><a href="#">Token</a></li>
               <li><a href="#">How it works</a></li>
               <li><a href="#">Roadmap</a></li>
@@ -161,69 +161,67 @@
               <p>Leverage on any tokens with a protocol trusted with billions for its performance and reliability.</p>
             </div>
             <div class="token_box">
-              <div class="dateCounter">
-                <div class="dateCounter_item">
-                  <span class="dateCounter_number">00</span>
-                  <span class="dateCounter_label">Days</span>
-                </div>
-                <div class="dateCounter_item">
-                  <span class="dateCounter_number">00</span>
-                  <span class="dateCounter_label">Hours</span>
-                </div>
-                <div class="dateCounter_item">
-                  <span class="dateCounter_number">00</span>
-                  <span class="dateCounter_label">Minutes</span>
-                </div>
-                <div class="dateCounter_item">
-                  <span class="dateCounter_number">00</span>
-                  <span class="dateCounter_label">Seconds</span>
-                </div>
-              </div>
-              <div class="token_info">
-                <p class="token_contribution"><strong>$49,222,300</strong> contribution received</p>
-                <!-- Line Progress -->
-                <div class="token_line_progress" data-start="5" data-end="99" data-value="45">
-                  <span class="token_line_total"></span>
-                  <span class="token_line_current" id="progress-bar"></span>
-                </div>
-                <div class="token_exchnage">
-                  <div class="token_exchange_devider">
-                    <select name="select" id="">
-                      <option value="1">1 AMO = 0.00000001 ETH</option>
-                      <option value="2">1 AMO = 0.00000002 ETH</option>
-                      <option value="3">1 AMO = 0.00000003 ETH</option>
-                      <option value="4">1 AMO = 0.00000004 ETH</option>
-                      <option value="5">1 AMO = 0.00000005 ETH</option>
-                    </select>
-                    <div class="token_selector">
-                      <button type="button" class="token_sl_icon">
-                        <img src="assets/images/ethu.png" alt="Arrow Down" />
-                      </button>
-                      <button type="button" class="token_sl_icon">
-                        <img src="assets/images/streamline.png" alt="Arrow Down" />
-                      </button>
-                    </div>
+              <div class="token_box_wrapper">
+                <div class="dateCounter">
+                  <div class="dateCounter_item">
+                    <span class="dateCounter_number">00</span>
+                    <span class="dateCounter_label">Days</span>
                   </div>
-                  <div class="token_inputs">
-                    <div class="form_control">
-                      <label for="#">PAY WITH USDT</label>
-                      <input type="number" placeholder="0.00 AMO" />
-                    </div>
-                    <div class="form_control">
-                      <label for="#">RECEIVE AMB</label>
-                      <input type="number" placeholder="0.00 ETH" />
-                    </div>
+                  <div class="dateCounter_item">
+                    <span class="dateCounter_number">00</span>
+                    <span class="dateCounter_label">Hours</span>
+                  </div>
+                  <div class="dateCounter_item">
+                    <span class="dateCounter_number">00</span>
+                    <span class="dateCounter_label">Minutes</span>
+                  </div>
+                  <div class="dateCounter_item">
+                    <span class="dateCounter_number">00</span>
+                    <span class="dateCounter_label">Seconds</span>
                   </div>
                 </div>
-                <button type="button" class="btn btn-primary">buy now</button>
+                <div class="token_info">
+                  <p class="token_contribution"><strong>$49,222,300</strong> contribution received</p>
+                  <!-- Line Progress -->
+                  <div class="token_line_progress" data-start="5" data-end="99" data-value="45">
+                    <span class="token_line_total"></span>
+                    <span class="token_line_current" id="progress-bar"></span>
+                  </div>
+                  <div class="token_exchnage">
+                    <div class="token_exchange_devider">
+                      <select name="select" id="">
+                        <option value="1">1 AMO = 0.00000001 ETH</option>
+                        <option value="2">1 AMO = 0.00000002 ETH</option>
+                        <option value="3">1 AMO = 0.00000003 ETH</option>
+                        <option value="4">1 AMO = 0.00000004 ETH</option>
+                        <option value="5">1 AMO = 0.00000005 ETH</option>
+                      </select>
+                      <div class="token_selector">
+                        <button type="button" class="token_sl_icon">
+                          <img src="assets/images/ethu.png" alt="Arrow Down" />
+                        </button>
+                        <button type="button" class="token_sl_icon">
+                          <img src="assets/images/streamline.png" alt="Arrow Down" />
+                        </button>
+                      </div>
+                    </div>
+                    <div class="token_inputs">
+                      <div class="form_control">
+                        <label for="#">PAY WITH USDT</label>
+                        <input type="number" placeholder="0.00 AMO" />
+                      </div>
+                      <div class="form_control">
+                        <label for="#">RECEIVE AMB</label>
+                        <input type="number" placeholder="0.00 ETH" />
+                      </div>
+                    </div>
+                  </div>
+                  <button type="button" class="btn btn-primary">buy now</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- End Token Area -->
-      <!-- How it works Area -->
-      <section class="how_it_works_area">
         <div class="container">
           <div class="how_it_works_content">
             <div class="section_content">
@@ -235,32 +233,32 @@
               <div class="how_it_works_item">
                 <h2 class="how_it_works_count">01</h2>
                 <div class="how_it_works_text">
-                  <h3>Step 1</h3>
-                  <p>Description of step 1.</p>
+                  <h3>compatibility</h3>
+                  <p>EVM compatible, SVM compatible, compatible with more than 10 blockchains</p>
                 </div>
               </div>
               <!-- Single Item -->
               <div class="how_it_works_item">
                 <h2 class="how_it_works_count">02</h2>
                 <div class="how_it_works_text">
-                  <h3>Step 1</h3>
-                  <p>Description of step 1.</p>
+                  <h3>privacy</h3>
+                  <p>Absolute decentralization, only more than 50% of the votes can pass the proposal</p>
                 </div>
               </div>
               <!-- Single Item -->
               <div class="how_it_works_item">
                 <h2 class="how_it_works_count">03</h2>
                 <div class="how_it_works_text">
-                  <h3>Step 1</h3>
-                  <p>Description of step 1.</p>
+                  <h3>High-speed</h3>
+                  <p>Processing over 1 million transactions per second</p>
                 </div>
               </div>
               <!-- Single Item -->
               <div class="how_it_works_item">
                 <h2 class="how_it_works_count">04</h2>
                 <div class="how_it_works_text">
-                  <h3>Step 1</h3>
-                  <p>Description of step 1.</p>
+                  <h3>Amoeba</h3>
+                  <p>Every coin holder can get more benefits</p>
                 </div>
               </div>
             </div>
@@ -268,7 +266,7 @@
             <div class="mini_cta">
               <div class="mini_cta_content">
                 <div class="mini_cta_thumb">
-                  <img src="assets/images/logo-icon.svg" alt="icons">
+                  <img src="assets/images/mini-cta-thumb.png" alt="icons">
                 </div>
                 <div class="mini_cta_text">
                   <h3>Worry-free <span>exchange</span></h3>
@@ -288,18 +286,48 @@
         <div class="container">
           <div class="ctAssets_content">
             <div class="section_content">
-              <h4>Built on web3. Powered by amoeba</h4>
-              <h2 class="section_title">The <span>future</span> of leverage is here</h2>
+              <h4>crypto direction</h4>
+              <h2 class="section_title">Goods & assets <span>according</span>
+                tousers interests.</h2>
             </div>
             <div class="ctAssets_list">
               <!-- Single Item -->
               <div class="ctAssets_item">
                 <div class="ctAssets_item_thumb">
-                  <img src="assets/images/cta-icons.png" alt="thumb">
+                  <img src="assets/images/ethu.png" alt="thumb">
                 </div>
                 <div class="ctAssets_item_text">
-                  <h3>Q1 2025</h3>
-                  <p>Description of Q1 2025 roadmap.</p>
+                  <h3>Read our</h3>
+                  <h4>white paper</h4>
+                  <button type="button" class="btn_outline_assets">
+                    Buy Tokens
+                  </button>
+                </div>
+              </div>
+              <!-- Single Item -->
+              <div class="ctAssets_item">
+                <div class="ctAssets_item_thumb">
+                  <img src="assets/images/ethu.png" alt="thumb">
+                </div>
+                <div class="ctAssets_item_text">
+                  <h3>Read our</h3>
+                  <h4>white paper</h4>
+                  <button type="button" class="btn_outline_assets">
+                    Buy Tokens
+                  </button>
+                </div>
+              </div>
+              <!-- Single Item -->
+              <div class="ctAssets_item">
+                <div class="ctAssets_item_thumb">
+                  <img src="assets/images/ethu.png" alt="thumb">
+                </div>
+                <div class="ctAssets_item_text">
+                  <h3>Read our</h3>
+                  <h4>white paper</h4>
+                  <button type="button" class="btn_outline_assets">
+                    Buy Tokens
+                  </button>
                 </div>
               </div>
             </div>
@@ -312,24 +340,23 @@
         <div class="container">
           <div class="faq_content">
             <div class="faq_thumb">
-              <img src="assets/images/faq.svg" alt="faq-thumb">
+              <img src="assets/images/faq.png" alt="faq-thumb">
             </div>
             <div class="faq_box">
               <div class="section_content">
-                <h4>Built on web3. Powered by amoeba</h4>
-                <h2 class="section_title">The <span>future</span> of leverage is here</h2>
+                <h4>faq & ans</h4>
+                <h2 class="section_title">Get every <span>single</span> answer</h2>
               </div>
               <div class="faq_list">
                 <!-- Single Item -->
                 <div class="faq_item">
-                  <h3>What is Amoeba?</h3>
-                  <p>Amoeba is a decentralized protocol that allows users to leverage any token with high performance
-                    and reliability.</p>
-                </div>
-                <!-- Single Item -->
-                <div class="faq_item">
-                  <h3>How does it work?</h3>
-                  <p>Amoeba uses advanced algorithms and AI tools to ensure secure and efficient token exchanges.</p>
+                  <div class="faq_item_title">
+                    <h3>What is Amoeba?</h3>
+                  </div>
+                  <div class="faq_item_body">
+                    <p>Amoeba is a decentralized protocol that allows users to leverage any token with high performance
+                      and reliability.</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -342,14 +369,44 @@
         <div class="container">
           <div class="roadmap_content">
             <div class="section_content">
-              <h4>Built on web3. Powered by amoeba</h4>
-              <h2 class="section_title">The <span>future</span> of leverage is here</h2>
+              <h4>Roadmap</h4>
+              <h2 class="section_title">Our <span>strategy</span> & Planning</h2>
             </div>
             <div class="roadmap_list">
               <!-- Single Item -->
               <div class="roadmap_item">
                 <div class="roadmap_item_thumb">
-                  <img src="assets/images/" alt="thumb">
+                  <img src="assets/images/planning/1.svg" alt="thumb">
+                </div>
+                <div class="roadmap_item_text">
+                  <h3>Q1 2025</h3>
+                  <p>Description of Q1 2025 roadmap.</p>
+                </div>
+              </div>
+              <!-- Single Item -->
+              <div class="roadmap_item">
+                <div class="roadmap_item_thumb">
+                  <img src="assets/images/planning/1.svg" alt="thumb">
+                </div>
+                <div class="roadmap_item_text">
+                  <h3>Q1 2025</h3>
+                  <p>Description of Q1 2025 roadmap.</p>
+                </div>
+              </div>
+              <!-- Single Item -->
+              <div class="roadmap_item">
+                <div class="roadmap_item_thumb">
+                  <img src="assets/images/planning/1.svg" alt="thumb">
+                </div>
+                <div class="roadmap_item_text">
+                  <h3>Q1 2025</h3>
+                  <p>Description of Q1 2025 roadmap.</p>
+                </div>
+              </div>
+              <!-- Single Item -->
+              <div class="roadmap_item">
+                <div class="roadmap_item_thumb">
+                  <img src="assets/images/planning/1.svg" alt="thumb">
                 </div>
                 <div class="roadmap_item_text">
                   <h3>Q1 2025</h3>
@@ -364,10 +421,32 @@
       <!-- Team Area -->
       <section class="team_area">
         <div class="container">
-          <div class="tearm_wrapper">
+          <div class="team_wrapper">
             <div class="section_content">
-              <h4>Built on web3. Powered by amoeba</h4>
-              <h2 class="section_title">The <span>future</span> of leverage is here</h2>
+              <h4>our avengers</h4>
+              <h2 class="section_title">Meet with <span>our</span> avengers!</h2>
+              <p>Webzi brings our love for cryptocurrency into Web3! Like a frog's leap, the chart can jump at any
+                moment. Boom!</p>
+              <div class="team_socail">
+                <label for="#">Follow us</label>
+                <ul class="social_media">
+                  <li>
+                    <a href="#">
+                      <img src="assets/images/socail/x-twitter.svg" alt="icon">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="assets/images/socail/telegram-plane.svg" alt="icon">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="assets/images/socail/x-twitter.svg" alt="icon">
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div class="team_list">
               <!-- Single Item -->
@@ -379,8 +458,8 @@
                   <img src="assets/images/avatars/avatar-1.png" alt="Team Member 1" />
                 </div>
                 <div class="team_item_text">
+                  <h4 class="mini_title_h4">founder</h4>
                   <h3>John Doe</h3>
-                  <p>CEO & Founder</p>
                 </div>
               </div>
             </div>
@@ -397,14 +476,30 @@
           </a>
           <div class="section_content">
             <h4>Built on web3. Powered by amoeba</h4>
-            <h2 class="section_title">The <span>future</span> of leverage is here</h2>
+            <h2 class="section_title">Join with our <span>future</span> of Webzi currency</h2>
           </div>
-          <ul class="footer_social">
-            <li><a href="#">t</a></li>
+          <ul class="social_media">
+            <li>
+              <a href="#">
+                <img src="assets/images/socail/telegram-plane.svg" alt="icon">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/images/socail/x-twitter.svg" alt="icon">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/images/socail/telegram-plane.svg" alt="icon">
+              </a>
+            </li>
           </ul>
           <!-- Footer Shapes -->
-          <img src="assets/images/footer-shape-1.svg" alt="Shape 1" class="shape shape-1" />
-          <img src="assets/images/footer-shape-2.svg" alt="Shape 2" class="shape shape-2" />
+          <img src="assets/images/footer-shape-1.svg" class="footer_shape shape_1" alt="Shape 1"
+            class="shape shape-1" />
+          <img src="assets/images/footer-shape-2.svg" class="footer_shape shape_2" alt="Shape 2"
+            class="shape shape-2" />
         </div>
         <div class="footer_cp">
           <p>Copyright & design by <span>@AMOEBA</span> - 2025</p>
